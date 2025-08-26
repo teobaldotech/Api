@@ -1,13 +1,22 @@
-# Api
-Api são usadas para integrar novas aplicações emsistemas de software existentes, aumentando o funcionamento e a velocidade.
+# 📝 API de Tarefas com Node.js e Express
 
-requisitos para instalação
-editor vs code
+Esta é uma API REST simples para gerenciamento de tarefas, construída com [Express](https://expressjs.com/) e Node.js. Ideal para estudos, prototipagem ou como base para projetos maiores.
 
-ferramentas de instalação no vs code
+## 🚀 Funcionalidades
 
+- Criar uma nova tarefa (`POST /tarefas`)
+- Listar todas as tarefas (`GET /tarefas`)
+- Atualizar uma tarefa existente (`PUT /tarefas/:id`)
+- Deletar uma tarefa (`DELETE /tarefas/:id`)
+
+## 📦 Requisitos
+
+- Node.js (versão 14 ou superior)
+- npm (gerenciador de pacotes)
+
+## ⚙️ Instalação
+
+```bash
+git clone https://github.com/seu-usuario/api-tarefas.git
+cd api-tarefas
 npm install
-npm install express
-npm install mysql2
-npm i install --save-dev eslint
-yarn global add nodemon
